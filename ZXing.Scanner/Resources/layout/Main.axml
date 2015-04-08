@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:background="#181818"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:id="@+id/Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:layout_centerInParent="true"
+            android:text="弹窗测试" />
+    </RelativeLayout>
+    <Button
+        android:id="@+id/btnDefault"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="默认弹窗扫描" />
+    <Button
+        android:id="@+id/btnCustom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义界面弹窗扫描" />
+</LinearLayout>

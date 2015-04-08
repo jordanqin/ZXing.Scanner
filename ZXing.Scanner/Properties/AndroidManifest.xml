@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="ZXing.Scanner" android:versionCode="1" android:versionName="1.0">
+	<uses-sdk />
+	<application android:label="ZXing.Scanner" android:icon="@drawable/Icon"></application>
+	<uses-permission android:name="android.permission.VIBRATE" />
+	<uses-permission android:name="android.permission.CAMERA" />
+</manifest>
